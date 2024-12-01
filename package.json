@@ -1,0 +1,24 @@
+{
+  "name": "dk-lineup-generator",
+  "version": "0.0.1",
+  "description": "Generate Draftkings lineups in seconds",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scott-mccartney/dk-lineup-generator.git"
+  },
+  "keywords": [
+    "draftkings",
+    "lineup",
+    "generator"
+  ],
+  "author": "scott-mccartney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scott-mccartney/dk-lineup-generator/issues"
+  },
+  "homepage": "https://github.com/scott-mccartney/dk-lineup-generator#readme"
+}

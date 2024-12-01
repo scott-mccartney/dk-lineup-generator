@@ -3,12 +3,22 @@
   "version": "0.0.1",
   "description": "Generate Draftkings lineups in seconds",
   "main": "index.js",
+  "types": "dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
     "test": "test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scott-mccartney/dk-lineup-generator.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "draftkings",
@@ -20,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/scott-mccartney/dk-lineup-generator/issues"
   },
-  "homepage": "https://github.com/scott-mccartney/dk-lineup-generator#readme"
+  "homepage": "https://github.com/scott-mccartney/dk-lineup-generator#readme",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
 }

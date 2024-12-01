@@ -5,9 +5,6 @@
   "main": "index.js",
   "types": "dist/index.d.ts",
   "module": "./dist/index.mjs",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "tsc",
     "start": "npm run build && node dist/index.js",
@@ -16,9 +13,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scott-mccartney/dk-lineup-generator.git"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "draftkings",
@@ -32,7 +26,6 @@
   },
   "homepage": "https://github.com/scott-mccartney/dk-lineup-generator#readme",
   "devDependencies": {
-    "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   }
 }
